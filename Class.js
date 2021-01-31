@@ -8,4 +8,5 @@ class  Student{
 
 const student1 = new Student(12,"rian");
 const student2 = new Student(13, "karim");
+
 console.log(student1,student2)
