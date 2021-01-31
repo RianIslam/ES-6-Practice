@@ -1,10 +1,9 @@
 class  Student{
-    constructor(){
-        this.id = 1;
-        this.name = "rian";
+    constructor(sId,sName){
+
     }
 }
 
-const student1 = new Student();
-const student2 = new Student();
+const student1 = new Student(12,"shovo");
+const student2 = new Student(13, "karim");
 console.log(student1,student2)
